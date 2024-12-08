@@ -15,7 +15,7 @@ const Navbar = () => {
     </div>
 
     <nav className="hidden md:flex space-x-8 items-center">
-      <a href="/" className="text-[#000000] text-[16px] font-medium hover:text-gray-400">
+      <a href="#" className="text-[#000000] text-[16px] font-medium hover:text-gray-400">
         Home
       </a>
       <a href="#" className="text-[#000000] text-[16px] font-medium hover:text-gray-400">
