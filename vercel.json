@@ -1,0 +1,15 @@
+{
+    "builds": [
+      {
+        "src": "package.json",
+        "use": "@vercel/node",
+        "config": {
+          "buildCommand": "npm ci"
+        }
+      }
+    ],
+    "env": {
+      "NPM_CONFIG_REGISTRY": "https://registry.npmjs.org/"
+    }
+  }
+  
